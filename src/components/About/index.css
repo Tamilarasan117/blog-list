@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.about-img {
+  width: 200px;
+}
+.about-heading {
+  font-weight: 600;
+  color: #6d396b;
+  font-size: 24px;
+}
+@media (min-width: 576px) {
+  .about-heading {
+    font-size: 48px;
+  }
+}
+.about-paragraph {
+  font-size: 20px;
+  text-align: center;
+  color: #555555;
+}

@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.contact-img {
+  width: 200px;
+}
+.contact-heading {
+  font-weight: 600;
+  color: #6d396b;
+}
+@media (min-width: 576px) {
+  .contact-heading {
+    font-size: 48px;
+  }
+}
